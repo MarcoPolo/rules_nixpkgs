@@ -12,7 +12,7 @@ filegroup(
 
 filegroup(
     name = "libexec",
-    srcs = glob(["lib/**/*.so*", "lib/**/*.dylib", "lib/**/*.a", "lib/**/*.js"], allow_empty = True),
+    srcs = glob(["libexec/**/*.so*", "libexec/**/*.dylib", "libexec/**/*.a", "libexec/**/*.js"], allow_empty = True),
 )
 
 filegroup(
